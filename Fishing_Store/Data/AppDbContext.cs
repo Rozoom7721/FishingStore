@@ -1,6 +1,8 @@
-﻿namespace Fishing_Store.Data
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Fishing_Store.Data
 {
-    public class AppDbContext
+    public class AppDbContext:DbContext
     {
     }
 }
